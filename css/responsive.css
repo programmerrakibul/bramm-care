@@ -1,0 +1,1308 @@
+@media only screen and (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+
+  /* Navbar Responsive */
+  .navbar-logo img {
+    height: 28px;
+  }
+
+  /* Navbar Promise Responsive */
+  .promise-text {
+    font-size: 0.85rem;
+  }
+
+  .promise-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .promise-item::after {
+    height: 18px;
+  }
+
+  .bundle-options {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Benefits Section Responsive */
+  .benefit-text {
+    font-size: 0.95rem;
+  }
+
+  .benefit-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .benefit-item::after {
+    height: 22px;
+  }
+
+  /* Quality Section Responsive */
+  .quality-text {
+    font-size: 0.95rem;
+  }
+
+  .quality-icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  .quality-item::after {
+    height: 22px;
+  }
+
+  .feedback-grid,
+  .stories-grid,
+  .ritual-grid,
+  .routine-grid,
+  .transformation-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  /* Product Section Responsive */
+  .product-wrapper {
+    gap: 40px;
+  }
+
+  .product-title {
+    font-size: 2rem;
+  }
+
+  .product-rating {
+    padding: 14px 20px;
+    gap: 14px;
+  }
+
+  .rating-stars img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .rating-text {
+    font-size: 0.75rem;
+  }
+
+  .current-price {
+    font-size: 1.75rem;
+  }
+
+  .gallery-thumbs {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .testimonial-card:last-child {
+    grid-column: 1 / -1;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  /* Ritual Section Responsive */
+  .ritual-item:last-child {
+    grid-column: 1 / -1;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  .step-image {
+    height: 250px;
+  }
+
+  /* Routine Section Responsive */
+  .routine-grid .routine-card:nth-child(5) {
+    grid-column: 1 / -1;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  .routine-product {
+    max-width: 500px;
+  }
+
+  /* FAQ Section Responsive */
+  .faq-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  /* Supercharge Section Responsive */
+  .supercharge-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .card-image {
+    height: 220px;
+  }
+
+  /* Success Metrics Responsive */
+  .metrics-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .metric-percentage {
+    font-size: 3.5rem;
+  }
+
+  .metric-description {
+    font-size: 0.95rem;
+  }
+
+  /* Review Section Responsive */
+  .review-title {
+    font-size: 2rem;
+  }
+
+  .reviews-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .newsletter-title {
+    font-size: 2rem;
+  }
+
+  .footer-nav {
+    gap: 24px;
+  }
+
+  .footer-link {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+  /* Guarantee Banner Responsive */
+  #guarantee-banner {
+    padding: 10px 0;
+  }
+
+  .guarantee-banner-content {
+    gap: 8px;
+  }
+
+  .guarantee-banner-content img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .guarantee-banner-content span {
+    font-size: 0.85rem;
+  }
+
+  /* Navbar Responsive */
+  .navbar {
+    padding: 12px 0;
+  }
+
+  .navbar-logo img {
+    height: 24px;
+  }
+
+  .menu-toggle svg,
+  .cart-btn svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Navbar Promise Responsive */
+  #navbar-promise {
+    padding: 10px 0;
+  }
+
+  .promise-text {
+    font-size: 0.8rem;
+  }
+
+  .promise-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .promise-wrapper {
+    gap: 50px;
+  }
+
+  .promise-item {
+    padding-right: 50px;
+  }
+
+  .promise-item::after {
+    right: 25px;
+    height: 16px;
+  }
+
+  .bundle-options {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Benefits Section Responsive */
+  #benefits {
+    padding: 16px 0;
+  }
+
+  .benefit-text {
+    font-size: 0.9rem;
+  }
+
+  .benefit-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .benefits-wrapper {
+    gap: 50px;
+  }
+
+  .benefit-item {
+    padding-right: 50px;
+  }
+
+  .benefit-item::after {
+    right: 25px;
+    height: 20px;
+  }
+
+  /* Quality Section Responsive */
+  #quality {
+    padding: 16px 0;
+  }
+
+  .quality-text {
+    font-size: 0.9rem;
+  }
+
+  .quality-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .quality-wrapper {
+    gap: 50px;
+  }
+
+  .quality-item {
+    padding-right: 50px;
+  }
+
+  .quality-item::after {
+    right: 25px;
+    height: 20px;
+  }
+
+  #feedback .container,
+  #stories .container {
+    padding: 60px 0;
+  }
+
+  #review {
+    padding: 60px 0;
+  }
+
+  .header {
+    margin-bottom: 40px;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  /* Product Section Responsive */
+  #product {
+    padding: 60px 0;
+  }
+
+  .product-wrapper {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .product-gallery,
+  .product-details {
+    max-width: 100%;
+    position: relative;
+  }
+
+  .product-title {
+    font-size: 1.75rem;
+  }
+
+  .product-rating {
+    padding: 12px 18px;
+    gap: 12px;
+  }
+
+  .rating-stars img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .rating-text {
+    font-size: 0.9rem;
+  }
+
+  .current-price {
+    font-size: 1.5rem;
+  }
+
+  .bundle-image {
+    height: 60px;
+  }
+
+  .main-image {
+    max-height: 400px;
+  }
+
+  .gallery-prev,
+  .gallery-next {
+    width: 36px;
+    height: 36px;
+  }
+
+  .gallery-prev {
+    left: 15px;
+  }
+
+  .gallery-next {
+    right: 15px;
+  }
+
+  .gallery-thumbs {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .feedbackSwiper,
+  .storiesSwiper,
+  .routineSwiper,
+  .transformationSwiper {
+    padding-bottom: 40px !important;
+  }
+
+  .feedback-grid,
+  .stories-grid,
+  .ritual-grid,
+  .routine-grid,
+  .transformation-grid {
+    display: flex;
+    gap: 0;
+  }
+
+  .testimonial-card {
+    width: 100%;
+    height: 460px !important;
+  }
+
+  .testimonial-card:last-child {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  /* Supercharge Section Responsive */
+  .supercharge-content {
+    grid-template-columns: 1fr;
+  }
+
+  .routine-card {
+    height: 235px !important;
+  }
+
+  /* Transformation Section Responsive */
+  #transformation {
+    padding: 60px 0;
+  }
+
+  .transformation-column {
+    width: 100%;
+  }
+
+  .transformation-before-card,
+  .transformation-after-card {
+    min-height: 120px;
+  }
+
+  .before-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .after-product {
+    width: 80px;
+    height: 80px;
+  }
+
+  .before-title,
+  .after-title {
+    font-size: 0.95rem;
+  }
+
+  .before-description,
+  .after-description {
+    font-size: 0.85rem;
+  }
+
+  /* Ritual Section Responsive */
+  #ritual {
+    padding: 60px 0;
+  }
+
+  .ritual-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .ritual-item:last-child {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .step-title {
+    font-size: 1.25rem;
+  }
+
+  .step-description {
+    font-size: 0.9rem;
+  }
+
+  .transformation-before-card {
+    margin-bottom: 20px;
+  }
+
+  /* Routine Section Responsive */
+  #routine {
+    padding: 60px 0;
+  }
+
+  .routine-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .routine-grid .routine-card:nth-child(5) {
+    max-width: 100%;
+  }
+
+  .routine-card {
+    width: 100%;
+  }
+
+  .routine-title {
+    font-size: 1.125rem;
+  }
+
+  .routine-description {
+    font-size: 0.9rem;
+  }
+
+  .routine-product {
+    max-width: 100%;
+  }
+
+  .swiper-pagination {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 40px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+    background: #c5d5e8;
+    opacity: 1;
+    margin: 0 !important;
+    transition: all 0.3s ease;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: var(--color-black);
+    border: 2px solid var(--color-black);
+    box-shadow: 0 0 0 4px #ffffff, 0 0 0 6px var(--color-black);
+    width: 16px;
+    height: 16px;
+  }
+
+  .testimonial-text {
+    font-size: 0.9rem;
+  }
+
+  /* Supercharge Section Responsive */
+  #supercharge {
+    padding: 60px 0;
+  }
+
+  .card-description {
+    font-size: 0.9rem;
+  }
+
+  /* FAQ Section Responsive */
+  #faq {
+    padding: 60px 0;
+  }
+
+  .faq-question {
+    font-size: 0.95rem;
+    padding: 16px 20px;
+  }
+
+  .faq-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .faq-answer p {
+    font-size: 0.9rem;
+  }
+
+  /* Review Section Responsive */
+  .review-title {
+    font-size: 1.75rem;
+  }
+
+  .review-controls {
+    gap: 12px;
+  }
+
+  .rating-stars img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .review-count {
+    font-size: 0.9rem;
+  }
+
+  .write-review-btn {
+    font-size: 0.9rem;
+    padding: 10px 24px;
+  }
+
+  /* Footer Mobile Layout */
+  #footer {
+    padding: 50px 0 20px;
+  }
+
+  .newsletter-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    text-align: left;
+  }
+
+  .newsletter-title {
+    font-size: 1.75rem;
+  }
+
+  .newsletter-subtitle {
+    font-size: 0.9rem;
+  }
+
+  /* Footer Content Grid - Mobile Layout */
+  .footer-content {
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    gap: 0;
+    padding-block: 20px;
+    border-bottom: 0;
+  }
+
+  .footer-logo {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .footer-logo img {
+    width: 82px;
+    height: 22px;
+  }
+
+  .footer-social {
+    grid-column: 2;
+    grid-row: 1;
+    gap: 12px;
+  }
+
+  .social-link {
+    width: 36px;
+    height: 36px;
+  }
+
+  .social-link svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 30px;
+  }
+
+  .footer-link {
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--color-black);
+    justify-content: space-between;
+  }
+
+  .footer-link:first-child {
+    border-top: 1px solid var(--color-black);
+  }
+
+  .footer-link svg {
+    display: block;
+  }
+
+  .footer-copyright {
+    font-size: 0.875rem;
+  }
+
+  .payment-methods {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .payment-methods img {
+    height: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 94%;
+    padding-inline: 12px;
+  }
+
+  /* Guarantee Banner Mobile */
+  #guarantee-banner {
+    padding: 8px 0;
+  }
+
+  .guarantee-banner-content {
+    gap: 6px;
+  }
+
+  .guarantee-banner-content img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .guarantee-banner-content span {
+    font-size: 0.75rem;
+  }
+
+  /* Navbar Mobile */
+  .navbar {
+    padding: 10px 0;
+  }
+
+  .navbar-logo img {
+    width: 66px;
+    height: 22px;
+  }
+
+  .menu-toggle,
+  .cart-btn {
+    padding: 6px;
+  }
+
+  .menu-toggle svg,
+  .cart-btn svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  /* Navbar Promise Mobile */
+  #navbar-promise {
+    padding: 8px 0;
+  }
+
+  .promise-text {
+    font-size: 0.75rem;
+  }
+
+  .promise-icon {
+    width: 14px;
+    height: 14px;
+  }
+
+  .promise-wrapper {
+    gap: 40px;
+  }
+
+  .promise-item {
+    padding-right: 40px;
+    gap: 6px;
+  }
+
+  .promise-item::after {
+    right: 20px;
+    height: 14px;
+  }
+
+  /* Benefits Section Mobile */
+  #benefits {
+    padding: 14px 0;
+  }
+
+  .benefit-text {
+    font-size: 0.85rem;
+  }
+
+  .benefit-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .benefits-wrapper {
+    gap: 40px;
+  }
+
+  .benefit-item {
+    padding-right: 40px;
+  }
+
+  .benefit-item::after {
+    right: 20px;
+    height: 18px;
+  }
+
+  /* Quality Section Mobile */
+  #quality {
+    padding: 14px 0;
+  }
+
+  .quality-text {
+    font-size: 0.85rem;
+  }
+
+  .quality-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .quality-wrapper {
+    gap: 40px;
+  }
+
+  .quality-item {
+    padding-right: 40px;
+  }
+
+  .quality-item::after {
+    right: 20px;
+    height: 18px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 16px 20px;
+    font-size: 1rem;
+  }
+
+  #feedback .container,
+  #stories .container {
+    padding: 40px 12px;
+  }
+
+  #success-metrics {
+    padding: 40px 0;
+  }
+
+  #review {
+    padding: 40px 0;
+  }
+
+  .header {
+    margin-bottom: 30px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+
+  .subtitle {
+    font-size: 0.85rem;
+  }
+
+  /* Product Section Mobile */
+  #product {
+    padding: 40px 0;
+  }
+
+  .product-title {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+  }
+
+  .product-rating {
+    padding: 10px 16px;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .rating-stars {
+    gap: 4px;
+  }
+
+  .rating-stars img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .rating-text {
+    font-size: 0.65rem;
+  }
+
+  .product-description {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+
+  .current-price {
+    font-size: 1.25rem;
+  }
+
+  .original-price {
+    font-size: 1rem;
+  }
+
+  .bundle-title,
+  .subscribe-title {
+    font-size: 1rem;
+  }
+
+  .bundle-options {
+    gap: 26px;
+    align-items: stretch;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bundle-image {
+    height: 70px;
+  }
+
+  .main-image {
+    max-height: 350px;
+  }
+
+  .gallery-prev,
+  .gallery-next {
+    width: 32px;
+    height: 32px;
+  }
+
+  .gallery-prev svg,
+  .gallery-next svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .gallery-prev {
+    left: 10px;
+  }
+
+  .gallery-next {
+    right: 10px;
+  }
+
+  .gallery-thumbs {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+
+  .subscribe-label {
+    padding: 16px;
+  }
+
+  .subscribe-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .subscribe-main-text,
+  .subscribe-price {
+    font-size: 1rem;
+  }
+
+  .subscribe-benefits {
+    padding-left: 36px;
+  }
+
+  .subscribe-benefits li {
+    font-size: 0.875rem;
+  }
+
+  .add-to-cart-btn {
+    font-size: 1rem;
+    padding: 14px;
+  }
+
+  .product-accordion-question {
+    padding: 16px 18px;
+    font-size: 0.95rem;
+  }
+
+  .product-accordion-icon-wrapper {
+    width: 26px;
+    height: 26px;
+  }
+
+  .product-accordion-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .product-accordion-answer {
+    padding: 0 18px;
+  }
+
+  .product-accordion-radio:checked
+    + .product-accordion-question
+    + .product-accordion-answer {
+    padding: 0 18px 18px;
+  }
+
+  .accordion-content p {
+    font-size: 0.9rem;
+  }
+
+  .accordion-content h4 {
+    font-size: 0.95rem;
+  }
+
+  .testimonial-card {
+    padding: 16px;
+  }
+
+  .testimonial-image {
+    height: 190px;
+  }
+
+  .testimonial-rating img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .testimonial-text {
+    font-size: 0.875rem;
+    margin-bottom: 12px;
+  }
+
+  .testimonial-author {
+    font-size: 0.8rem;
+  }
+
+  .testimonial-author img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .guarantee-text {
+    font-size: 0.8rem;
+  }
+
+  .guarantee-text img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .solution-card .card-label {
+    top: 21px;
+    right: 21px;
+  }
+
+  .routine-card {
+    height: 224px !important;
+  }
+
+  /* Transformation Section Mobile */
+  #transformation {
+    padding: 40px 0;
+  }
+
+  .transformation-before-card,
+  .transformation-after-card {
+    padding: 20px;
+    min-height: 185px;
+  }
+
+  .before-icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .after-product {
+    width: 70px;
+    height: 70px;
+  }
+
+  .before-title,
+  .after-title {
+    font-size: 0.9rem;
+    margin-bottom: 6px;
+  }
+
+  .before-description,
+  .after-description {
+    font-size: 0.8rem;
+  }
+
+  /* Ritual Section Mobile */
+  #ritual {
+    padding: 40px 0;
+  }
+
+  .step-image {
+    height: 220px;
+  }
+
+  .step-badge {
+    font-size: 0.8rem;
+    padding: 6px 16px;
+  }
+
+  .step-title {
+    font-size: 1.125rem;
+    margin-bottom: 8px;
+  }
+
+  .step-description {
+    font-size: 0.875rem;
+  }
+
+  /* Routine Section Mobile */
+  #routine {
+    padding: 40px 0;
+  }
+
+  .routine-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 16px;
+  }
+
+  .routine-title {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .routine-description {
+    font-size: 0.875rem;
+  }
+
+  .routine-card {
+    padding: 24px 16px;
+  }
+
+  /* FAQ Section Mobile */
+  #faq {
+    padding: 40px 0;
+  }
+
+  .faq-question {
+    font-size: 0.875rem;
+    padding: 14px 16px;
+  }
+
+  .faq-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .faq-answer p {
+    font-size: 0.85rem;
+  }
+
+  .faq-radio:checked + .faq-question + .faq-answer {
+    padding: 0 16px 16px;
+  }
+
+  /* Supercharge Section Mobile */
+  #supercharge {
+    padding: 40px 0;
+  }
+
+  .card-label {
+    font-size: 0.8rem;
+    padding: 5px 12px;
+    top: 16px;
+    right: 16px;
+  }
+
+  .card-image {
+    height: 200px;
+  }
+
+  .card-description {
+    font-size: 0.875rem;
+  }
+
+  .metric-card {
+    padding: 30px 20px;
+  }
+
+  .metric-percentage {
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+
+  .metric-description {
+    font-size: 0.875rem;
+  }
+
+  /* Review Section Mobile */
+  .review-header {
+    margin-bottom: 20px;
+  }
+
+  .review-title {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+  }
+
+  .review-controls {
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  .filter-btn img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .review-rating-summary {
+    order: 1;
+    flex: 0 0 calc(100% - 60px);
+  }
+
+  .filter-btn {
+    order: 2;
+    flex: 0 0 44px;
+  }
+
+  .write-review-btn {
+    order: 3;
+    width: 100%;
+    font-size: 0.875rem;
+    padding: 12px 20px;
+  }
+
+  .rating-stars img {
+    width: 13px;
+    height: 13px;
+  }
+
+  .review-count {
+    font-size: 0.85rem;
+  }
+
+  .reviews-grid {
+    gap: 16px;
+    margin-bottom: 30px;
+  }
+
+  .review-card {
+    padding: 20px;
+  }
+
+  .review-stars img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .review-text {
+    font-size: 0.875rem;
+    margin-bottom: 12px;
+  }
+
+  .review-author {
+    font-size: 0.8rem;
+  }
+
+  .review-author img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .show-more-btn {
+    width: 100%;
+    font-size: 0.875rem;
+    padding: 12px 20px;
+  }
+
+  /* Footer - Additional Mobile Styles */
+  #footer {
+    padding: 40px 0 20px;
+  }
+
+  .newsletter-section {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+
+  .newsletter-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .newsletter-subtitle {
+    font-size: 0.85rem;
+    margin-bottom: 24px;
+  }
+
+  .newsletter-form {
+    max-width: 100%;
+  }
+
+  .newsletter-input {
+    padding: 14px 16px;
+    font-size: 0.9rem;
+  }
+
+  .newsletter-btn {
+    padding: 14px 16px;
+    font-size: 1rem;
+  }
+
+  .payment-methods img {
+    width: 18px;
+  }
+}
