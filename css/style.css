@@ -411,13 +411,6 @@ ul {
 
 .bundle-option {
   position: relative;
-}
-
-.bundle-option input[type="radio"] {
-  display: none;
-}
-
-.bundle-option label {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -430,7 +423,11 @@ ul {
   background-color: var(--color-white);
 }
 
-.bundle-option input[type="radio"]:checked + label {
+.bundle-option input[type="radio"] {
+  display: none;
+}
+
+.bundle-option:has(input[type="radio"]:checked) {
   border-color: var(--color-black);
   background-color: var(--color-primary);
 }

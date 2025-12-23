@@ -168,6 +168,115 @@ const customerReviews = [
   },
 ];
 
+const navbarPromises = [
+  {
+    icon: "./assets/icons/antioxidants.png",
+    alt: "Antioxidants icon",
+    text: "Rich in Antioxidants",
+  },
+  {
+    icon: "./assets/icons/immune.png",
+    alt: "Immune health icon",
+    text: "Boosts Immune Health Naturally",
+  },
+  {
+    icon: "./assets/icons/harvest.png",
+    alt: "Harvest icon",
+    text: "100% Wild-Harvested & Pure",
+  },
+  {
+    icon: "./assets/icons/antioxidants.png",
+    alt: "Antioxidants icon",
+    text: "Rich in Antioxidants",
+  },
+  {
+    icon: "./assets/icons/immune.png",
+    alt: "Immune health icon",
+    text: "Boosts Immune Health Naturally",
+  },
+  {
+    icon: "./assets/icons/harvest.png",
+    alt: "Harvest icon",
+    text: "100% Wild-Harvested & Pure",
+  },
+];
+
+const qualities = [
+  {
+    icon: "./assets/icons/gmo.png",
+    alt: "Non-GMO icon",
+    text: "Non-GMO",
+  },
+  {
+    icon: "./assets/icons/lactose.png",
+    alt: "Lactose free icon",
+    text: "Lactose Free",
+  },
+  {
+    icon: "./assets/icons/vegan.png",
+    alt: "Vegan icon",
+    text: "Vegan",
+  },
+  {
+    icon: "./assets/icons/glutan.png",
+    alt: "Gluten free icon",
+    text: "Gluten Free",
+  },
+  {
+    icon: "./assets/icons/gmo.png",
+    alt: "Non-GMO icon",
+    text: "Non-GMO",
+  },
+  {
+    icon: "./assets/icons/lactose.png",
+    alt: "Lactose free icon",
+    text: "Lactose Free",
+  },
+  {
+    icon: "./assets/icons/vegan.png",
+    alt: "Vegan icon",
+    text: "Vegan",
+  },
+  {
+    icon: "./assets/icons/glutan.png",
+    alt: "Gluten free icon",
+    text: "Gluten Free",
+  },
+];
+
+const benefits = [
+  {
+    icon: "./assets/icons/boost.png",
+    alt: "Boost immunity icon",
+    text: "Boost Immunity Naturally",
+  },
+  {
+    icon: "./assets/icons/support.png",
+    alt: "Support gut health icon",
+    text: "Support Gut Health",
+  },
+  {
+    icon: "./assets/icons/enhance.png",
+    alt: "Enhance energy icon",
+    text: "Enhance Energy and Vitality",
+  },
+  {
+    icon: "./assets/icons/boost.png",
+    alt: "Boost immunity icon",
+    text: "Boost Immunity Naturally",
+  },
+  {
+    icon: "./assets/icons/support.png",
+    alt: "Support gut health icon",
+    text: "Support Gut Health",
+  },
+  {
+    icon: "./assets/icons/enhance.png",
+    alt: "Enhance energy icon",
+    text: "Enhance Energy and Vitality",
+  },
+];
+
 // Function to generate star rating HTML
 function generateStars(rating = 5) {
   let starsHTML = "";
@@ -253,6 +362,32 @@ const cardTemplates = {
       </p>
     </div>
   `,
+  promise: (data) => `
+           <div class="promise-item">
+              <div class="promise-icon">
+                <img src=${data.icon} alt=${data.alt} />
+              </div>
+              <span class="promise-text">${data.text}</span>
+            </div>
+  `,
+
+  quality: (data) => `
+           <div class="quality-item">
+              <div class="quality-icon">
+                <img src=${data.icon} alt=${data.alt} />
+              </div>
+              <span class="quality-text">${data.text}</span>
+            </div>
+  `,
+
+  benefit: (data) => `
+           <div class="benefit-item">
+              <div class="benefit-icon">
+                <img src=${data.icon} alt=${data.alt} />
+              </div>
+              <span class="benefit-text">${data.text}</span>
+            </div>
+  `,
 };
 
 // Reusable Render Cards Function
@@ -294,6 +429,7 @@ function initSwiper(swiperClass, gridClass, cardClass) {
         swiperInstance = new Swiper(`.${swiperClass}`, {
           slidesPerView: 1,
           spaceBetween: 16,
+          loop: true,
           pagination: {
             el: `.${swiperClass} .swiper-pagination`,
             clickable: true,
@@ -379,6 +515,9 @@ window.addEventListener("DOMContentLoaded", () => {
   renderCards(ritualSteps, "ritual-grid", "ritual");
   renderCards(successMetrics, "metrics-grid", "metric");
   renderCards(customerReviews, "reviews-grid", "review");
+  renderCards(navbarPromises, "promise-container", "promise");
+  renderCards(qualities, "quality-container", "quality");
+  renderCards(benefits, "benefits-container", "benefit");
 
   // Initialize FAQ Accordion
   initAccordionCollapse(".faq-radio");

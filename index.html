@@ -72,55 +72,7 @@
       <!-- Navbar Promise Bar -->
       <div id="navbar-promise">
         <div class="promiseSwiper">
-          <div class="promise-wrapper">
-            <!-- Promise 1 -->
-            <div class="promise-item">
-              <div class="promise-icon">
-                <img src="./assets//icons/antioxidants.png" alt="" />
-              </div>
-              <span class="promise-text">Rich in Antioxidants</span>
-            </div>
-
-            <!-- Promise 2 -->
-            <div class="promise-item">
-              <div class="promise-icon">
-                <img src="./assets//icons/immune.png" alt="" />
-              </div>
-              <span class="promise-text">Boosts Immune Health Naturally</span>
-            </div>
-
-            <!-- Promise 3 -->
-            <div class="promise-item">
-              <div class="promise-icon">
-                <img src="./assets//icons/harvest.png" alt="" />
-              </div>
-              <span class="promise-text">100% Wild-Harvested & Pure</span>
-            </div>
-
-            <!-- Promise 4 -->
-            <div class="promise-item">
-              <div class="promise-icon">
-                <img src="./assets//icons/antioxidants.png" alt="" />
-              </div>
-              <span class="promise-text">Rich in Antioxidants</span>
-            </div>
-
-            <!-- Promise 5 -->
-            <div class="promise-item">
-              <div class="promise-icon">
-                <img src="./assets//icons/immune.png" alt="" />
-              </div>
-              <span class="promise-text">Boosts Immune Health Naturally</span>
-            </div>
-
-            <!-- Promise 6 -->
-            <div class="promise-item">
-              <div class="promise-icon">
-                <img src="./assets//icons/harvest.png" alt="" />
-              </div>
-              <span class="promise-text">100% Wild-Harvested & Pure</span>
-            </div>
-          </div>
+          <div id="promise-container" class="promise-wrapper"></div>
         </div>
       </div>
     </header>
@@ -264,20 +216,18 @@
               <div class="bundle-selection">
                 <h3 class="bundle-title">1. Choose your bundle</h3>
                 <div class="bundle-options">
-                  <div class="bundle-option">
+                  <label class="bundle-option" for="bundle1">
                     <input type="radio" name="bundle" id="bundle1" value="1" />
-                    <label for="bundle1">
-                      <div class="bundle-image">
-                        <img src="./assets/img/bundle_1.png" alt="1 Bottle" />
-                      </div>
-                      <div class="bundle-info">
-                        <span class="bundle-quantity">1 Bottle</span>
-                        <span class="bundle-supply">30 Day Supply</span>
-                      </div>
-                    </label>
-                  </div>
+                    <div class="bundle-image">
+                      <img src="./assets/img/bundle_1.png" alt="1 Bottle" />
+                    </div>
+                    <div class="bundle-info">
+                      <span class="bundle-quantity">1 Bottle</span>
+                      <span class="bundle-supply">30 Day Supply</span>
+                    </div>
+                  </label>
 
-                  <div class="bundle-option popular">
+                  <label class="bundle-option popular" for="bundle2">
                     <span class="popular-badge">Most Popular</span>
                     <input
                       type="radio"
@@ -286,32 +236,28 @@
                       value="2"
                       checked
                     />
-                    <label for="bundle2">
-                      <div class="bundle-image">
-                        <img src="./assets/img/bundle_2.png" alt="2 Bottles" />
-                      </div>
-                      <div class="bundle-info">
-                        <span class="bundle-quantity">2 Bottles</span>
-                        <span class="bundle-save-badge">Save $8.00</span>
-                        <span class="bundle-supply">60 Day Supply</span>
-                      </div>
-                    </label>
-                  </div>
+                    <div class="bundle-image">
+                      <img src="./assets/img/bundle_2.png" alt="2 Bottles" />
+                    </div>
+                    <div class="bundle-info">
+                      <span class="bundle-quantity">2 Bottles</span>
+                      <span class="bundle-save-badge">Save $8.00</span>
+                      <span class="bundle-supply">60 Day Supply</span>
+                    </div>
+                  </label>
 
-                  <div class="bundle-option best-value">
+                  <label class="bundle-option best-value" for="bundle3">
                     <span class="value-badge">Best Value</span>
                     <input type="radio" name="bundle" id="bundle3" value="3" />
-                    <label for="bundle3">
-                      <div class="bundle-image">
-                        <img src="./assets/img/bundle_3.png" alt="3 Bottles" />
-                      </div>
-                      <div class="bundle-info">
-                        <span class="bundle-quantity">3 Bottles</span>
-                        <span class="bundle-save-badge">Save $15.00</span>
-                        <span class="bundle-supply">90 Day Supply</span>
-                      </div>
-                    </label>
-                  </div>
+                    <div class="bundle-image">
+                      <img src="./assets/img/bundle_3.png" alt="3 Bottles" />
+                    </div>
+                    <div class="bundle-info">
+                      <span class="bundle-quantity">3 Bottles</span>
+                      <span class="bundle-save-badge">Save $15.00</span>
+                      <span class="bundle-supply">90 Day Supply</span>
+                    </div>
+                  </label>
                 </div>
               </div>
 
@@ -675,71 +621,7 @@
       <!-- Quality Section -->
       <section id="quality">
         <div class="qualitySwiper">
-          <div class="quality-wrapper">
-            <!-- Quality 1 -->
-            <div class="quality-item">
-              <div class="quality-icon">
-                <img src="./assets/icons/gmo.png" alt="" />
-              </div>
-              <span class="quality-text">Non-GMO</span>
-            </div>
-
-            <!-- Quality 2 -->
-            <div class="quality-item">
-              <div class="quality-icon">
-                <img src="./assets/icons/lactose.png" alt="" />
-              </div>
-              <span class="quality-text">Lactose Free</span>
-            </div>
-
-            <!-- Quality 3 -->
-            <div class="quality-item">
-              <div class="quality-icon">
-                <img src="./assets/icons/vegan.png" alt="" />
-              </div>
-              <span class="quality-text">Vegan</span>
-            </div>
-
-            <!-- Quality 4 -->
-            <div class="quality-item">
-              <div class="quality-icon">
-                <img src="./assets/icons/glutan.png" alt="" />
-              </div>
-              <span class="quality-text">Gluten Free</span>
-            </div>
-
-            <!-- Quality 5 -->
-            <div class="quality-item">
-              <div class="quality-icon">
-                <img src="./assets/icons/gmo.png" alt="" />
-              </div>
-              <span class="quality-text">Non-GMO</span>
-            </div>
-
-            <!-- Quality 6 -->
-            <div class="quality-item">
-              <div class="quality-icon">
-                <img src="./assets/icons/lactose.png" alt="" />
-              </div>
-              <span class="quality-text">Lactose Free</span>
-            </div>
-
-            <!-- Quality 7 -->
-            <div class="quality-item">
-              <div class="quality-icon">
-                <img src="./assets/icons/vegan.png" alt="" />
-              </div>
-              <span class="quality-text">Vegan</span>
-            </div>
-
-            <!-- Quality 8 -->
-            <div class="quality-item">
-              <div class="quality-icon">
-                <img src="./assets/icons/glutan.png" alt="" />
-              </div>
-              <span class="quality-text">Gluten Free</span>
-            </div>
-          </div>
+          <div id="quality-container" class="quality-wrapper"></div>
         </div>
       </section>
 
@@ -950,55 +832,7 @@
       <!-- Benefits Section -->
       <section id="benefits">
         <div class="benefitsSwiper">
-          <div class="benefits-wrapper">
-            <!-- Benefit 1 -->
-            <div class="benefit-item">
-              <div class="benefit-icon">
-                <img src="./assets//icons/boost.png" alt="" />
-              </div>
-              <span class="benefit-text">Boost Immunity Naturally</span>
-            </div>
-
-            <!-- Benefit 2 -->
-            <div class="benefit-item">
-              <div class="benefit-icon">
-                <img src="./assets/icons/support.png" alt="" />
-              </div>
-              <span class="benefit-text">Support Gut Health</span>
-            </div>
-
-            <!-- Benefit 3 -->
-            <div class="benefit-item">
-              <div class="benefit-icon">
-                <img src="./assets/icons/enhance.png" alt="" />
-              </div>
-              <span class="benefit-text">Enhance Energy and Vitality</span>
-            </div>
-
-            <!-- Benefit 4 -->
-            <div class="benefit-item">
-              <div class="benefit-icon">
-                <img src="./assets/icons/boost.png" alt="" />
-              </div>
-              <span class="benefit-text">Boost Immunity Naturally</span>
-            </div>
-
-            <!-- Benefit 5 -->
-            <div class="benefit-item">
-              <div class="benefit-icon">
-                <img src="./assets/icons/support.png" alt="" />
-              </div>
-              <span class="benefit-text">Support Gut Health</span>
-            </div>
-
-            <!-- Benefit 6 -->
-            <div class="benefit-item">
-              <div class="benefit-icon">
-                <img src="./assets/icons/enhance.png" alt="" />
-              </div>
-              <span class="benefit-text">Enhance Energy and Vitality</span>
-            </div>
-          </div>
+          <div id="benefits-container" class="benefits-wrapper"></div>
         </div>
       </section>
 
