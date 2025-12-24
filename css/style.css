@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-Clearface-Std) !important;
+  font-family: var(--font-Clearface-Std);
 }
 
 button {
@@ -410,8 +410,9 @@ ul {
 
 .bundle-title {
   font-size: 1.125rem;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 16px;
+  font-family: var(--font-Helvetica-Neue);
 }
 
 .bundle-options {
@@ -519,8 +520,9 @@ ul {
 
 .subscribe-title {
   font-size: 1.125rem;
-  font-weight: 600;
   margin-bottom: 16px;
+  font-family: var(--font-Helvetica-Neue);
+  font-weight: 400;
 }
 
 .subscribe-option {
@@ -546,6 +548,10 @@ ul {
 .subscribe-option input[type="radio"]:checked + .subscribe-label {
   background-color: var(--color-primary);
   border-color: var(--color-black);
+}
+
+.subscribe-option input[type="radio"]:checked + .subscribe-label span {
+  font-weight: 600;
 }
 
 .subscribe-label::before {
@@ -576,12 +582,10 @@ ul {
 
 .subscribe-main-text {
   font-size: 1.125rem;
-  font-weight: 600;
 }
 
 .subscribe-price {
   font-size: 1.125rem;
-  font-weight: 700;
   white-space: nowrap;
 }
 
