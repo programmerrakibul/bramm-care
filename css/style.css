@@ -1,11 +1,7 @@
-/* Local Fonts */
-@font-face {
-  font-family: "HelveticaNeue";
-  src: local("Helvetica Neue"), local("Helvetica-Neue"),
-    url("../fonts/HelveticaNeueMedium.otf") format("otf");
-  font-display: swap;
-}
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
+/* Local Font */
 @font-face {
   font-family: "ClearfaceStd";
   src: local("Clearface Std"), local("Clearface-Std"),
@@ -23,8 +19,8 @@
   --color-white: #ffffff;
 
   /* Typography */
-  --font-Helvetica-Neue: "HelveticaNeue", sans-serif;
   --font-Clearface-Std: "ClearfaceStd", sans-serif;
+  --font-Open-Sans: "Open Sans", sans-serif;
 }
 
 /* Common Styles */
@@ -38,7 +34,7 @@
 }
 
 body {
-  font-family: var(--font-Helvetica-Neue);
+  font-family: var(--font-Open-Sans);
   font-weight: 400;
   color: var(--color-black);
   background-color: #f8faff;
@@ -54,7 +50,7 @@ h6 {
 }
 
 button {
-  font-family: var(--font-Helvetica-Neue);
+  font-family: var(--font-Open-Sans);
   color: var(--color-black);
 }
 
@@ -412,7 +408,7 @@ ul {
   font-size: 1.125rem;
   font-weight: 400;
   margin-bottom: 16px;
-  font-family: var(--font-Helvetica-Neue);
+  font-family: var(--font-Open-Sans);
 }
 
 .bundle-options {
@@ -521,7 +517,7 @@ ul {
 .subscribe-title {
   font-size: 1.125rem;
   margin-bottom: 16px;
-  font-family: var(--font-Helvetica-Neue);
+  font-family: var(--font-Open-Sans);
   font-weight: 400;
 }
 
@@ -1491,7 +1487,7 @@ ul {
 .newsletter-input {
   padding: 16px 20px;
   font-size: 1rem;
-  font-family: var(--font-Helvetica-Neue);
+  font-family: var(--font-Open-Sans);
   border: 2px solid #e0e0e0;
   border-radius: 8px;
   background-color: var(--color-white);
